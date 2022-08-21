@@ -16,5 +16,13 @@ namespace TestGitStep
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(button1.Text == " ")
+            {
+                MessageBox.Show(" test nhánh master");
+            }    
+        }
     }
 }
