@@ -21,7 +21,11 @@ namespace TestGitStep
         {
             if(button1.Text == " ")
             {
+<<<<<<< HEAD
                 MessageBox.Show(" test nhánh master");
+=======
+                MessageBox.Show("Test");
+>>>>>>> QuynhNhu
             }    
         }
     }

@@ -37,19 +37,22 @@ namespace TestGitStep
 =======
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
 >>>>>>> 8bb8b5808cd04617b71c2545e9665efbe6338b71
+=======
+            this.button1 = new System.Windows.Forms.Button();
+>>>>>>> QuynhNhu
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Aqua;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(194, 68);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(259, 84);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 60);
+            this.label1.Size = new System.Drawing.Size(123, 74);
             this.label1.TabIndex = 0;
             this.label1.Text = "test 1";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -58,10 +61,9 @@ namespace TestGitStep
             // 
             this.label2.BackColor = System.Drawing.Color.Aqua;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(194, 181);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(259, 223);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 60);
+            this.label2.Size = new System.Drawing.Size(123, 74);
             this.label2.TabIndex = 1;
             this.label2.Text = "test 2";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -70,10 +72,9 @@ namespace TestGitStep
             // 
             this.label3.BackColor = System.Drawing.Color.Aqua;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(362, 125);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(483, 154);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 60);
+            this.label3.Size = new System.Drawing.Size(123, 74);
             this.label3.TabIndex = 2;
             this.label3.Text = "test 5";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -93,10 +94,9 @@ namespace TestGitStep
             // 
             this.label4.BackColor = System.Drawing.Color.Aqua;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(362, 16);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(483, 20);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(92, 60);
+            this.label4.Size = new System.Drawing.Size(123, 74);
             this.label4.TabIndex = 3;
             this.label4.Text = "test 4";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -105,16 +105,16 @@ namespace TestGitStep
             // 
             this.label5.BackColor = System.Drawing.Color.Aqua;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(362, 240);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(483, 295);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(92, 60);
+            this.label5.Size = new System.Drawing.Size(123, 74);
             this.label5.TabIndex = 4;
             this.label5.Text = "test 3";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label6
+            // button1
             // 
+<<<<<<< HEAD
             this.label6.BackColor = System.Drawing.Color.Aqua;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(50, 240);
@@ -137,11 +137,21 @@ namespace TestGitStep
             this.label7.Text = "test 1";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 >>>>>>> 8bb8b5808cd04617b71c2545e9665efbe6338b71
+=======
+            this.button1.Location = new System.Drawing.Point(110, 212);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(39, 50);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+>>>>>>> QuynhNhu
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
@@ -149,13 +159,17 @@ namespace TestGitStep
             this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
+=======
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
+>>>>>>> QuynhNhu
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
 >>>>>>> 8bb8b5808cd04617b71c2545e9665efbe6338b71
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -172,9 +186,13 @@ namespace TestGitStep
 =======
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+<<<<<<< HEAD
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
 >>>>>>> 8bb8b5808cd04617b71c2545e9665efbe6338b71
+=======
+        private System.Windows.Forms.Button button1;
+>>>>>>> QuynhNhu
     }
 }
 
