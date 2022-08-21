@@ -18,15 +18,7 @@ namespace TestGitStep
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
-            if(button1.Text == " ")
-            {
-<<<<<<< HEAD
-                MessageBox.Show(" test nhánh master");
-=======
-                MessageBox.Show("Test");
->>>>>>> QuynhNhu
-            }    
+        {   
         }
     }
 }
